@@ -5,15 +5,15 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 export default function App(){
     return (
-    <Router>
-      <Header /> <Routes>
-      <Route path="*" Component ={TodoApp} />
+   <>
+      <Header /> 
+      <Routes>
+      <Route path="*" Component ={<TodoApp />} />
     
 
       </Routes>
-    </Router>
-
-  
+   
+  </>
   
     );
   };
